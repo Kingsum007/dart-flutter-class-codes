@@ -27,12 +27,28 @@ class Test {
   const Test(this.age);
 }
 
-void main() {
-  Student student = Student("Ahmad", 30);
-  Student studentName = Student.name("Dawood");
-  Student studentAge = Student.age(age: 34);
-  const Test test = Test(23);
-  Test test1 = const Test(24);
-  studentName.display("Farooq");
-  studentAge.display("Hamid");
+// void main() {
+//   Student student = Student("Ahmad", 30);
+//   Student studentName = Student.name("Dawood");
+//   Student studentAge = Student.age(age: 34);
+//   const Test test = Test(23);
+//   Test test1 = const Test(24);
+//   studentName.display("Farooq");
+//   studentAge.display("Hamid");
+// }
+
+class Employee {
+  int? _id;
+  String? _name;
+  int getId() {
+    return _id!;
+  }
+
+  void setId(int id) {
+    this._id = id;
+  }
+
+  int get id => _id!;
+
+  set id(int id) => _id = id;
 }

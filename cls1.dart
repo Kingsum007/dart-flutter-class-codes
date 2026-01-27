@@ -1,4 +1,7 @@
+import 'dart:math';
+
 import 'cls.dart';
+import 'cls2.dart';
 
 class Student1 {
   String? _name;
@@ -43,12 +46,12 @@ void main() {
   Point p2 = const Point(3, 4);
   const Point p3 = Point(5, 6);
 
-  Employee emp = Employee();
-  emp.setId(10);
-  emp.setName("Ahmad");
+  Employee employee = Employee();
 
-  print("Employee Name: ${emp.getName()}\n Employee ID: ${emp.getId()}");
+  employee.setId(34);
 
+  employee.id = 35;
+  print(employee.id);
   // Vehicle v1 = Vehicle();
 
   // v1.model = "Mustang";

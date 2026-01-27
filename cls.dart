@@ -163,25 +163,25 @@ class Point {
   const Point(this.x, this.y);
 }
 
-class Employee {
-  int? _id;
-  String? _name;
-  int getId() {
-    return _id!;
-  }
+// class Employee {
+//   int? _id;
+//   String? _name;
+//   int getId() {
+//     return _id!;
+//   }
 
-  String getName() {
-    return _name!;
-  }
+//   String getName() {
+//     return _name!;
+//   }
 
-  void setId(int id) {
-    this._id = id;
-  }
+//   void setId(int id) {
+//     this._id = id;
+//   }
 
-  void setName(String name) {
-    this._name = name;
-  }
-}
+//   void setName(String name) {
+//     this._name = name;
+//   }
+// }
 
 class Vehicle {
   String? _model;
